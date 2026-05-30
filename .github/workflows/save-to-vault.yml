@@ -7,16 +7,28 @@ on:
 jobs:
   save:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
     steps:
       - name: Checkout vault repo
         uses: actions/checkout@v4
 
       - name: Create note file
         run: |
-          mkdir -p Tools
-          cat << 'NOTEEOF' > "${{ github.event.client_payload.filename }}"
-          ${{ github.event.client_payload.content }}
-          NOTEEOF
+          python3 << 'PYEOF'
+          import json, os, re
+
+          filename = "${{ github.event.client_payload.filename }}"
+          content = "${{ github.event.client_payload.content }}"
+
+          # Tạo thư mục nếu chưa có
+          os.makedirs(os.path.dirname(filename), exist_ok=True)
+
+          with open(filename, "w", encoding="utf-8") as f:
+              f.write(content)
+
+          print(f"Created: {filename}")
+          PYEOF
 
       - name: Commit and push
         run: |

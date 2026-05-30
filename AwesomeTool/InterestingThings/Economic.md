@@ -1,0 +1,17 @@
+- NautilusTrader: open-source trading engine dùng để nghiên cứu, backtest và chạy trading bot live trên nhiều loại tài sản/sàn giao dịch  
+	- Main features:  
+		- Lõi chính viết bằng Rust để có hiệu năng cao và an toàn hơn  
+		- Python dùng để viết strategy, config và điều phối hệ thống  
+		- Hỗ trợ backtesting với dữ liệu lịch sử như tick, bar, order book, custom data  
+		- Có thể dùng cùng một strategy cho research/backtest và live trading  
+		- Hỗ trợ nhiều sàn/thị trường như Binance, Coinbase, Bybit, Kraken, OKX, Interactive Brokers, Betfair, Polymarket  
+		- Hỗ trợ nhiều loại lệnh nâng cao như IOC, FOK, GTC, post-only, reduce-only, OCO, OTO  
+		- Có thể dùng để train AI trading agents  
+	- Usecase:  
+		- Học algorithmic trading và kiến trúc trading system  
+		- Backtest chiến lược giao dịch trên dữ liệu quá khứ  
+		- Chạy trading bot live với cùng logic đã dùng khi research  
+		- Xây bot giao dịch nhiều sàn hoặc nhiều loại tài sản  
+		- Học kiến trúc event-driven, adapter pattern, message bus và simulation engine  
+		- Có thể dùng trong nghiên cứu AI trading/RL trading agent  
+	- Link: [nautechsystems/nautilus_trader: A high-performance algorithmic trading platform and event-driven backtester](https://github.com/nautechsystems/nautilus_trader)

@@ -1,0 +1,30 @@
+- Playwright: open-source framework dùng để tự động hóa trình duyệt và test website như một người dùng thật  
+	- Main features:  
+		- Điều khiển Chromium, Firefox, WebKit bằng một API chung  
+		- Tự bấm nút, nhập form, kiểm tra text, chụp screenshot  
+		- Hỗ trợ end-to-end testing cho web app  
+		- Có auto-wait, giúp test ít bị lỗi do web load chậm  
+		- Có trace viewer để xem lại từng bước khi test bị fail  
+		- Có CLI và MCP để AI agent điều khiển browser  
+	- Usecase:  
+		- Test flow login, register, tạo event, checkout, CRUD trong web app  
+		- Kiểm tra frontend React/Next.js hoạt động đúng sau khi sửa code  
+		- Cho AI agent mở app local, bấm thử giao diện và phát hiện lỗi  
+		- Chụp screenshot, tạo PDF hoặc automation các thao tác web  
+	- Link: [microsoft/playwright: Playwright is a framework for Web Testing and Automation](https://github.com/microsoft/playwright)
+
+- SigNoz: open-source observability platform dùng để theo dõi sức khỏe backend/app qua logs, metrics và traces  
+	- Main features:  
+		- Theo dõi API latency, error rate, request per second  
+		- Gom log từ nhiều service về một nơi để search dễ hơn  
+		- Distributed tracing để xem một request đi qua những service nào  
+		- Tạo dashboard theo dõi hệ thống  
+		- Tạo alert khi app chậm, lỗi hoặc có dấu hiệu bất thường  
+		- Hỗ trợ LLM observability để theo dõi token, cost, latency của app AI  
+	- Usecase:  
+		- Monitor backend Spring Boot/Node.js trong môi trường dev hoặc production  
+		- Debug API chậm, lỗi 500, database query lâu  
+		- Theo dõi hệ thống microservices  
+		- Kết hợp với OpenTelemetry để quan sát logs + metrics + traces trong một chỗ  
+		- Theo dõi app AI/RAG/agent khi chạy thật  
+	- Link: [SigNoz/signoz: Open-source observability platform](https://github.com/SigNoz/signoz)

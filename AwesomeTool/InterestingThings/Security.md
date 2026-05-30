@@ -1,0 +1,38 @@
+- scan4all: open-source security scanner dùng để quét bảo mật website/server, tích hợp nhiều tool như nuclei, vscan, subfinder, nmap/naabu  
+	- Main features:  
+		- Quét port để xem server đang mở những cổng nào  
+		- Quét lỗ hổng bảo mật bằng nhiều POC có sẵn  
+		- Nhận diện công nghệ website/server bằng fingerprint  
+		- Tìm file nhạy cảm bị lộ như config, backup, log  
+		- Tìm subdomain và phân tích thông tin SSL/domain  
+		- Xuất kết quả ra JSON, TXT, CSV hoặc Elasticsearch  
+	- Usecase:  
+		- Kiểm tra bảo mật cho VPS/web app của chính mình trước khi public  
+		- Audit server xem có mở port lạ hoặc service nguy hiểm không  
+		- Học cybersecurity theo hướng phòng thủ  
+		- Dùng trong lab, pentest hợp pháp hoặc bug bounty đúng phạm vi cho phép  
+	- Link: [GhostTroops/scan4all: Vulnerability Scanner](https://github.com/GhostTroops/scan4all)
+
+- HackingTool: open-source toolbox tổng hợp nhiều công cụ security/pentest/hacking thành một menu, dùng để tham khảo và cài đặt các tool bảo mật khác nhau
+	- Main features:
+		- Gom nhiều tool security vào một chỗ theo từng category
+		- Có các nhóm như Information Gathering, Web Attack, Forensics, Cloud Security, Mobile Security, Active Directory
+		- Có chức năng search tool theo tên/keyword
+		- Có tag filter để lọc tool theo mảng như osint, web, cloud, mobile
+		- Có recommend mode để gợi ý tool theo nhu cầu
+		- Hiển thị trạng thái tool đã cài hay chưa
+		- Hỗ trợ update/cài tool theo từng category
+		- Có Docker để chạy trong môi trường tách biệt hơn
+	- Usecase:
+		- Làm bản đồ tham khảo các công cụ trong cybersecurity
+		- Học defensive security và pentest hợp pháp trong lab cá nhân
+		- Tìm các tool như nmap, Amass, httpx, Nuclei, OWASP ZAP, Trivy, Wireshark, Gitleaks, TruffleHog
+		- Kiểm tra hệ thống của chính mình như port, subdomain, secret leak, TLS config, container vulnerability
+		- Kết hợp với OWASP WSTG để học security theo checklist bài bản hơn
+		- Dùng trong CTF/lab/máy ảo thay vì chạy trên hệ thống thật của người khác
+	- Note:
+		- Repo này có cả các nhóm rất nhạy cảm như phishing, DDOS, RAT, payload creation, post exploitation
+		- Không nên cài/chạy lung tung nếu chưa hiểu rõ
+		- Chỉ nên dùng trên hệ thống của mình hoặc nơi có quyền kiểm thử rõ ràng
+		- Với developer/backend, nên tập trung vào các tool phòng thủ như recon, web scanning, secret scanning, TLS/container/cloud security
+	- Link: [Z4nzu/hackingtool: ALL IN ONE Hacking Tool For Hackers](https://github.com/Z4nzu/hackingtool)

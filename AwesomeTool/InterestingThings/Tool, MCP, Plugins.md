@@ -1,0 +1,110 @@
+- Whisper: open-source AI model của OpenAI dùng để chuyển giọng nói/audio thành văn bản  
+	- Main features:  
+		- Chuyển audio/video thành text transcript  
+		- Nhận diện ngôn ngữ trong audio  
+		- Hỗ trợ nhiều ngôn ngữ, bao gồm tiếng Việt  
+		- Có thể dịch giọng nói ngôn ngữ khác sang tiếng Anh  
+		- Có nhiều model size như tiny, base, small, medium, large, turbo để cân bằng tốc độ và độ chính xác  
+	- Usecase:  
+		- Chuyển bài giảng, meeting, podcast, video thành text  
+		- Tạo phụ đề cho video  
+		- Kết hợp với yt-dlp để tải audio từ video rồi transcribe  
+		- Kết hợp với AI agent để tóm tắt audio/video và lưu vào Obsidian  
+		- Chuyển voice Telegram thành text để xử lý tiếp  
+	- Link: [openai/whisper: Robust Speech Recognition via Large-Scale Weak Supervision](https://github.com/openai/whisper)
+
+- ytb-dlp: open-source cho phép tải video, audio, và nhiều thứ khác từ youtube hoặc các website khác dựa vào link có sẵn
+	- Main features:
+		- Tải video, audio, playlist, subtitle, chọn chất lượng
+		- Lưu metadata bao gồm thumbnail hoặc mô tả
+		- Đưa 1 file text gồm nhiều link nó cũng có thể tải được toàn bộ
+	- Usecase:
+		- Có thể kết hợp với pipeline của agent để automation các tác vụ
+		- Có thể kết hợp với repo Whisper để chuyển video thành text
+	- Link: [yt-dlp/yt-dlp: A feature-rich command-line audio/video downloader](https://github.com/yt-dlp/yt-dlp)
+
+- Nango: open-source platform giúp app hoặc AI agent kết nối với 800+ API bên ngoài như Google, Slack, GitHub, Notion, Linear, HubSpot
+	- Main features:
+		- Quản lý OAuth, API key, token refresh và credential storage cho nhiều API
+		- Có proxy để gọi API bên ngoài thay mặt user mà không cần tự xử lý token
+		- Cho phép viết integration logic bằng TypeScript functions
+		- Có AI builder để sinh integration function từ mô tả tự nhiên
+		- Hỗ trợ retry, rate limit, execution, scaling và observability
+		- Có thể dùng với bất kỳ backend language, AI coding tool hoặc agent SDK nào
+		- Có thể dùng Nango Cloud hoặc self-host
+	- Usecase:
+		- Kết nối AI agent với Google Calendar, Gmail, GitHub, Slack, Notion, Linear...
+		- Xây tool calling cho agent để agent có thể thực hiện hành động thật trên API ngoài
+		- Đồng bộ dữ liệu từ nhiều SaaS về app/RAG/indexing pipeline
+		- Xử lý webhook từ các API bên ngoài
+		- Normalize nhiều API khác nhau về một schema chung cho sản phẩm của mình
+		- Làm integration layer cho SaaS product mà không phải tự code OAuth từng service
+	- Link: [NangoHQ/nango: Product integrations for developers](https://github.com/NangoHQ/nango)
+
+- LibreTube: open-source Android app dùng để xem YouTube riêng tư hơn, không quảng cáo, hạn chế tracking từ Google/YouTube
+	- Main features:
+		- Xem video YouTube mà không dùng app YouTube chính thức
+		- Không quảng cáo và hạn chế tracking hành vi người dùng
+		- Hỗ trợ subscriptions, subscription groups, playlists, playlist bookmarks
+		- Có watch history và search history
+		- Hỗ trợ tải video để xem offline
+		- Hỗ trợ background playback để nghe khi tắt màn hình
+		- Có thể dùng account qua Piped để đồng bộ dữ liệu giữa thiết bị
+		- Tích hợp SponsorBlock để skip đoạn sponsor trong video
+		- Tích hợp ReturnYouTubeDislike để xem thống kê dislike
+		- Tích hợp DeArrow để giảm title/thumbnail clickbait
+	- Usecase:
+		- Xem YouTube trên Android riêng tư hơn, ít bị tracking hơn
+		- Xem video không quảng cáo và ít bị làm phiền hơn
+		- Nghe podcast/bài giảng/nhạc bằng background playback
+		- Tải video học tập để xem offline
+		- Quản lý subscription theo nhóm như AI, Backend, English, Game Dev
+		- Giảm clickbait khi học nhờ DeArrow
+		- Dùng ReturnYouTubeDislike để đánh giá nhanh chất lượng video/tutorial
+	- Link: [libre-tube/LibreTube: An alternative frontend for YouTube, for Android](https://github.com/libre-tube/LibreTube)
+
+- Paperless-ngx: open-source self-hosted document management system dùng để số hóa giấy tờ, scan tài liệu và biến chúng thành kho tài liệu online có thể tìm kiếm được
+	- Main features:
+		- Quản lý tài liệu giấy/PDF/ảnh scan trong một hệ thống self-hosted
+		- Có OCR để đọc chữ trong tài liệu scan, giúp search được nội dung bên trong
+		- Hỗ trợ lưu trữ, phân loại, tag và tìm kiếm tài liệu
+		- Có thể dùng để tạo archive online thay cho việc giữ quá nhiều giấy tờ vật lý
+		- Deploy dễ bằng Docker Compose
+		- Là successor chính thức của Paperless và Paperless-ng
+		- Có demo và tài liệu cài đặt riêng
+	- Usecase:
+		- Số hóa giấy tờ cá nhân như hóa đơn, biên lai, hợp đồng, chứng chỉ, giấy xác nhận
+		- Quản lý phiếu bảo hành, hóa đơn mua thiết bị, linh kiện, laptop, điện thoại
+		- Lưu trữ tài liệu học tập, giáo trình scan, đề cương, đề thi cũ
+		- Quản lý tài liệu CLB, seminar, nhóm nghiên cứu hoặc dự án cá nhân
+		- Lưu datasheet, manual, hóa đơn linh kiện cho dự án IoT/nhà kính
+		- Kết hợp với automation/AI để OCR → tóm tắt → gửi Telegram → lưu note Obsidian
+		- Dùng trong homelab như một kho tài liệu riêng thay cho Google Drive/Dropbox đối với tài liệu nhạy cảm
+	- Note:
+		- Không nên chạy trên host không tin cậy vì tài liệu có thể chứa thông tin nhạy cảm
+		- Dữ liệu lưu clear text, không nên public trực tiếp ra internet nếu chưa biết bảo mật
+		- Nên chạy local/private network và có backup đầy đủ
+	- Link: [paperless-ngx/paperless-ngx: A community-supported supercharged document management system](https://github.com/paperless-ngx/paperless-ngx)
+- Lance: open-source lakehouse format cho multimodal AI, dùng để lưu và truy vấn dữ liệu AI như text, image, video, audio, embedding và metadata
+	- Main features:
+		- Lưu dữ liệu multimodal như ảnh, video, audio, text và embedding trong một format thống nhất
+		- Hỗ trợ vector search để tìm dữ liệu tương tự theo embedding
+		- Hỗ trợ full-text search BM25 và SQL analytics trên cùng dataset
+		- Có hybrid search, tức là kết hợp vector search + keyword search + filter/query SQL
+		- Random access rất nhanh, phù hợp cho ML training và lấy mẫu dữ liệu ngẫu nhiên
+		- Hỗ trợ data evolution, thêm feature/cột mới mà không cần rewrite toàn bộ dataset
+		- Có versioning, ACID transactions, time travel, tags và branches cho dataset
+		- Tích hợp với Pandas, DuckDB, Polars, PyArrow, Ray, Spark, Trino, Flink
+	- Usecase:
+		- Làm data lake/lakehouse cho AI workflow có nhiều loại dữ liệu như text, ảnh, video, audio
+		- Lưu dataset cho RAG nâng cao gồm document chunk, embedding, metadata, image/table reference
+		- Xây search engine có hybrid search: tìm theo vector, keyword và điều kiện SQL
+		- Làm feature store cho machine learning và feature engineering
+		- Lưu training dataset cho computer vision hoặc multimodal AI cần random access nhanh
+		- Kết hợp với yt-dlp + Whisper để lưu video transcript, metadata và embedding cho pipeline AI
+		- Kết hợp với Milvus/vector DB nếu cần tách tầng lưu dataset và tầng serving/search production
+	- Note:
+		- Repo này khá nâng cao, hợp với AI data infrastructure hơn là app/backend cơ bản
+		- Nếu chỉ làm RAG nhỏ hoặc note cá nhân thì chưa cần dùng ngay
+		- Đáng biết nếu sau này làm dữ liệu AI lớn, multimodal hoặc ML training pipeline
+	- Link: [lancedb/lance: Modern columnar data format for ML and LLMs](https://github.com/lancedb/lance)

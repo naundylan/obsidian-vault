@@ -1,0 +1,28 @@
+- Technitium DNS Server: open-source DNS server tự host, dùng để quản lý DNS trong mạng, chặn quảng cáo/malware và tăng quyền riêng tư  
+	- Main features:  
+		- Tự host DNS server trên Windows, Linux, macOS, Raspberry Pi hoặc Docker  
+		- Có web console dễ cấu hình  
+		- Chặn ads/malware ở mức DNS cho toàn bộ mạng  
+		- Hỗ trợ DNS-over-HTTPS, DNS-over-TLS, DNS-over-QUIC  
+		- Có thể tạo DNS nội bộ cho homelab như app.home, nas.home, api.home  
+		- Có logging để xem thiết bị trong mạng đang query domain nào  
+		- Có thể làm cả recursive DNS và authoritative DNS  
+	- Usecase:  
+		- Chặn quảng cáo/tracker/malware cho cả mạng nhà  
+		- Tạo domain nội bộ cho homelab hoặc server local  
+		- Kết hợp với Caddy để truy cập service nội bộ bằng domain đẹp  
+		- Theo dõi DNS query của các thiết bị IoT hoặc thiết bị trong mạng  
+		- Tự host DNS cho domain nếu muốn học sâu về DNS  
+	- Link: [TechnitiumSoftware/DnsServer: Technitium DNS Server](https://github.com/TechnitiumSoftware/DnsServer)
+- Headscale: open-source self-hosted implementation của Tailscale control server, dùng để tự quản lý mạng riêng kiểu Tailscale  
+	- Main features:  
+		- Tự host control server thay vì dùng server chính thức của Tailscale  
+		- Vẫn dùng được với Tailscale client  
+		- Quản lý thiết bị, user, route, DNS, ACL trong mạng riêng  
+		- Phù hợp cho personal use, homelab hoặc team nhỏ  
+	- Usecase:  
+		- Tạo mạng riêng để truy cập VPS, máy ở nhà, NAS, Raspberry Pi từ xa  
+		- Truy cập server/database/dashboard nội bộ mà không cần mở port public  
+		- Dùng cho homelab hoặc hệ thống IoT gateway  
+		- Kết nối nhiều máy dev như đang ở chung một mạng riêng  
+	- Link: [juanfont/headscale: An open source, self-hosted implementation of the Tailscale control server](https://github.com/juanfont/headscale)

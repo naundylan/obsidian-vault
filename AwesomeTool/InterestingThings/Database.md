@@ -1,0 +1,13 @@
+- Milvus: open-source vector database dùng để lưu trữ và tìm kiếm dữ liệu dạng vector/embedding, thường dùng cho AI, RAG, semantic search hoặc recommendation system  
+	- Main features:  
+		- Lưu và tìm kiếm vector ở quy mô lớn  
+		- Hỗ trợ tìm kiếm theo ngữ nghĩa, không chỉ tìm theo keyword  
+		- Hỗ trợ hybrid search, tức là kết hợp semantic search và keyword search  
+		- Có thể dùng cho text, image, video hoặc dữ liệu đa phương thức  
+		- Tích hợp tốt với LangChain, LlamaIndex, OpenAI, HuggingFace  
+	- Usecase:  
+		- Làm bộ nhớ/tầng tìm kiếm cho chatbot RAG  
+		- Tìm kiếm tài liệu theo ý nghĩa thay vì chỉ theo từ khóa  
+		- Làm image search, product search, recommendation system  
+		- Dùng cho AI agent memory hoặc search trong Obsidian/codebase  
+	- Link: [milvus-io/milvus: A cloud-native vector database](https://github.com/milvus-io/milvus)

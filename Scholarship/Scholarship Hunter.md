@@ -1,0 +1,23 @@
+- [ ] **The 14th Gen of VIETSEED (27/05/24 - 25/07/24) tháng 5-6**
+- [ ] **LUONG VAN CAN Scholarship (07/05/24 - 17:00 12/07/24) tháng 5-6**
+- [ ] **VietHope Scholarship (??/??/?? - ??/??/??) tháng 8-9**
+- [ ] **VGSP Scholarship (đến khi đủ hồ sơ)**
+- [ ] **Panasonic Scholarship (12/04/2024 - 31/05/2024)**
+- [ ] **LSMSE Scholarship (??/??/?? - ??/??/??)**
+- [ ] **Jabil Scholarship (??/??/?? - ??/??/??)**
+- [ ] **Never Give up Scholarship (Talent Scholarship) (??/??/?? - ??/??/??)**
+- [ ] **Bank Scholarship (MB, Viettin, Vietcom) (??/??/?? - ??/??/??)**
+- [ ] **YAP Scholarship (Trao ấm nhận thương) (??/??/?? - ??/??/??)**
+- [ ] **An Nhien Scholarship (15/09)**
+- [ ] **Acecook Scholarship (??/??/?? - ??/??/??)**
+- [ ] **Sen Hong Scholarship (??/??/?? - ??/??/??)**
+- [ ] **Sharing the dream Scholarship (20/09)**
+- [ ] **Nguyen Truong To Scholarship (VnHelps Scholarship) (??/??/?? - ??/??/??) tháng 10**
+- [ ] **Tiếp Sức Đến Trường Scholarship (20/09)**
+- [ ] **Thanh Nhan Scholarship (15/06/2024 - 31/07/2024) tháng 6-7**
+- [ ] **CANUM Scholarship (01/07/2024 - 31/07/2024) tháng 7**
+- [ ] **Hue Hieu Hoc Scholarship (25/09)**
+- [ ] **Ươm Mầm Trí Tuệ Scholarship (22/09)**
+- [ ] **Nguyễn Văn Hai Scholarship (12/09)**
+- [ ] **Future VPBanker Scholarship (12/09)**
+- [ ] **Zhishan Scholarship (15/09 hoặc 15/10 hoặc 15/11)**

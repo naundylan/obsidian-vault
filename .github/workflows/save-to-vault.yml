@@ -13,27 +13,76 @@ jobs:
       - name: Checkout vault repo
         uses: actions/checkout@v4
 
-      - name: Create note file
+      - name: Append tool to category file
         run: |
           python3 << 'PYEOF'
           import json, os, re
+          from datetime import datetime
 
-          filename = "${{ github.event.client_payload.filename }}"
-          content = "${{ github.event.client_payload.content }}"
+          name = """${{ github.event.client_payload.name }}"""
+          content = """${{ github.event.client_payload.content }}"""
+          category_hint = """${{ github.event.client_payload.category }}""".lower()
 
-          # Tạo thư mục nếu chưa có
-          os.makedirs(os.path.dirname(filename), exist_ok=True)
+          # Map keyword → category file
+          CATEGORY_MAP = {
+              "database": ["database", "db", "sql", "postgres", "mysql", "mongo", "redis", "storage", "vector"],
+              "security": ["security", "auth", "ssl", "tls", "firewall", "vpn", "secret", "vault", "encrypt", "pentest", "vulnerability"],
+              "cloud": ["cloud", "aws", "azure", "gcp", "serverless", "lambda", "paas", "iaas"],
+              "hosting": ["hosting", "deploy", "vps", "server", "static", "cdn", "edge"],
+              "monitoring": ["monitoring", "log", "observability", "metric", "alert", "uptime", "apm", "tracing"],
+              "ci-cd": ["ci", "cd", "pipeline", "build", "deploy", "github action", "gitlab", "jenkins"],
+              "api": ["api", "rest", "graphql", "webhook", "gateway", "mock", "swagger"],
+              "email": ["email", "smtp", "mail", "newsletter", "transactional"],
+              "messaging": ["messaging", "chat", "slack", "discord", "notification", "push", "sms"],
+              "analytics": ["analytics", "tracking", "event", "funnel", "heatmap", "session"],
+              "testing": ["test", "qa", "selenium", "playwright", "cypress", "load test", "performance"],
+              "devtools": ["devtool", "ide", "editor", "cli", "terminal", "productivity", "formatter", "linter"],
+              "ai-ml": ["ai", "ml", "llm", "gpt", "vector", "embedding", "model", "nlp", "machine learning"],
+              "storage": ["storage", "file", "s3", "bucket", "blob", "drive", "backup"],
+              "domain": ["domain", "dns", "whois", "registrar"],
+          }
 
-          with open(filename, "w", encoding="utf-8") as f:
-              f.write(content)
+          def detect_category(name, content, hint):
+              text = (name + " " + content + " " + hint).lower()
+              scores = {}
+              for cat, keywords in CATEGORY_MAP.items():
+                  score = sum(1 for kw in keywords if kw in text)
+                  if score > 0:
+                      scores[cat] = score
+              if scores:
+                  return max(scores, key=scores.get)
+              return "other"
 
-          print(f"Created: {filename}")
+          category = detect_category(name, content, category_hint)
+          os.makedirs("Tools", exist_ok=True)
+          filepath = f"Tools/{category}.md"
+
+          # Build note entry
+          date = datetime.utcnow().strftime("%Y-%m-%d")
+          entry = f"""
+---
+## {name}
+> Thêm vào: {date}
+
+{content}
+
+"""
+
+          # Append vào file, tạo mới nếu chưa có
+          if not os.path.exists(filepath):
+              with open(filepath, "w", encoding="utf-8") as f:
+                  f.write(f"# {category.upper()}\n\nDanh sách các tool liên quan đến {category}.\n")
+
+          with open(filepath, "a", encoding="utf-8") as f:
+              f.write(entry)
+
+          print(f"Appended '{name}' to {filepath}")
           PYEOF
 
       - name: Commit and push
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add .
-          git commit -m "feat: add tool note from Telegram"
+          git add Tools/
+          git commit -m "feat: add ${{ github.event.client_payload.name }}" || echo "Nothing to commit"
           git push

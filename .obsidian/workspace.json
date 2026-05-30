@@ -180,11 +180,14 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "bases:Create new base": false
+      "bases:Create new base": false,
+      "obsidian-git:Open Git source control": false
     }
   },
   "active": "338522f97ddbdb7b",
   "lastOpenFiles": [
+    "Tools/random-2026-05-30-1780109489951.md",
+    "Tools",
     "New folder",
     "AwesomeTool/InterestingThings/Tool, MCP, Plugins.md",
     "AwesomeTool/InterestingThings/Testing & QA.md",

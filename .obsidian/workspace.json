@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Techs/Kafka & RabbitMQ.md",
+                "file": "Java/Spring Boot/Threads & Async.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Kafka & RabbitMQ"
+              "title": "Threads & Async"
             }
           }
         ]
@@ -186,8 +186,9 @@
   },
   "active": "f31dcac04c7193f4",
   "lastOpenFiles": [
-    "Tools/email.md",
     "Techs/Kafka & RabbitMQ.md",
+    "Java/Spring Boot/Threads & Async.md",
+    "Tools/email.md",
     "Tools/hosting.md",
     "Tools/random-2026-05-30-1780109489951.md",
     "Tools/testing.md",

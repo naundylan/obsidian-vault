@@ -45,3 +45,43 @@ Cấu trúc hoàn chỉnh của 1 layoutData
 	}
 ]
 }
+
+
+
+Trước khi có grid, màn canva, các chế độ, các số liệu chúng ta cần config các biến trước:
+```
+const CELL_SIZE = 30 // 1 ô bằng 30px
+const WORKSPACE_BLOCK_SIZE = 50 // kích cỡ của 1 workspace
+const DEFAULT_WORKSPACE = WORKSPACE_BLOCK_SIZE
+const MAX_HISTORY = 50
+const STANDARD_CLASS = { key: 'standard', name: 'Standard', color: '#2563eb' }
+const SEAT_COUNT_PRESETS = [
+  100, 200, 300, 400, 500, 600, 700, 800, 900, 1000,
+  1500, 2000, 2500, 3000, 3500, 4000, 4500, 5000,
+]
+```
+
+
+
+## 3. Cơ chế hoạt động của các Chế độ Vẽ (Paint), Xóa (Erase) và Kéo (Pan)
+
+Việc chuyển đổi giữa các Mode vẽ dựa trên các hàm xử lý sự kiện chuột của Konva `<Stage>` và các hàm lắng nghe sự kiện của đối tượng `window` trong React.
+
+```
+[Mouse Down] (Lấy điểm bắt đầu) -> [Mouse Move] (Tính toán khoảng vẽ tạm thời) -> [Mouse Up] (Lưu/Xóa chính thức vào State)
+```
+
+
+### a. Chuyển đổi tọa độ Chuột sang Ô lưới (Pixel -> Grid Cell)
+
+Mỗi khi chuột click hoặc di chuyển trên Stage, ta cần biết chuột đang nằm ở dòng nào, cột nào của lưới. Thuật toán chuyển đổi trong clientPointToCell như sau:
+
+row=⌊clientY−rect.top−stageState.ystageState.scale×CELL_SIZE⌋row=⌊stageState.scale×CELL_SIZEclientY−rect.top−stageState.y​⌋
+
+col=⌊clientX−rect.left−stageState.xstageState.scale×CELL_SIZE⌋col=⌊stageState.scale×CELL_SIZEclientX−rect.left−stageState.x​⌋
+
+- `rect.left`, `rect.top`: Vị trí của khung canvas trên trình duyệt.
+- `stageState.x`, `stageState.y`: Tọa độ dịch chuyển (offset) khi người dùng kéo màn hình (Pan).
+- `stageState.scale`: Tỷ lệ thu phóng (Zoom).
+- `CELL_SIZE`: Kích thước pixel của 1 ô (trong code là `30px`).
+

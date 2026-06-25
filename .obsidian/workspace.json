@@ -186,6 +186,9 @@
   },
   "active": "f31dcac04c7193f4",
   "lastOpenFiles": [
+    "Tools/monitoring.md",
+    "Tools/cloud.md",
+    "Tools/analytics.md",
     "Techs/Kafka & RabbitMQ.md",
     "Java/Spring Boot/Threads & Async.md",
     "Tools/email.md",

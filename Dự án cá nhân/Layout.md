@@ -85,3 +85,36 @@ col=⌊clientX−rect.left−stageState.xstageState.scale×CELL_SIZE⌋col=⌊st
 - `stageState.scale`: Tỷ lệ thu phóng (Zoom).
 - `CELL_SIZE`: Kích thước pixel của 1 ô (trong code là `30px`).
 
+
+### a. Chế độ vẽ đường thẳng (Line Mode)
+
+- Tính toán độ lệch dòng và cột giữa điểm bắt đầu và điểm kết thúc: `rowDelta = abs(end.row - start.row)` và `colDelta = abs(end.col - start.col)`.
+- Nếu `colDelta >= rowDelta`: Vẽ đường ngang. Giữ cố định dòng `start.row`, chạy cột từ `minCol` đến `maxCol`.
+- Nếu `rowDelta > colDelta`: Vẽ đường dọc. Giữ cố định cột `start.col`, chạy dòng từ `minRow` đến `maxRow`.
+
+
+
+### b. Chế độ vẽ hình chữ nhật (Rectangle Mode)
+
+- Xác định hình chữ nhật bao phủ bằng cách lấy cực trị của dòng và cột:
+    - `minRow = min(start.row, end.row)`
+    - `maxRow = max(start.row, end.row)`
+    - `minCol = min(start.col, end.col)`
+    - `maxCol = max(start.col, end.col)`
+- Chạy 2 vòng lặp lồng nhau để quét qua toàn bộ tọa độ:
+    
+    javascript
+    
+    for (let row = minRow; row <= maxRow; row++) {
+    
+      for (let col = minCol; col <= maxCol; col++) {
+    
+        cells.push({ row, col });
+    
+      }
+    
+    }
+    
+- Tất cả các ô nằm trong tập hợp này sẽ được thêm mới (hoặc xóa đi) khi người dùng thả chuột.
+
+

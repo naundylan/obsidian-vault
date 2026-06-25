@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Java/Spring Boot/Bài toán Transaction.md",
+                "file": "Dự án cá nhân/Race condition.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Bài toán Transaction"
+              "title": "Race condition"
             }
           }
         ]
@@ -186,6 +186,8 @@
   },
   "active": "f31dcac04c7193f4",
   "lastOpenFiles": [
+    "Java/Spring Boot/Bài toán Transaction.md",
+    "Dự án cá nhân/Race condition.md",
     "Java/Spring Boot/Bài toán tích hợp cổng thanh toán.md",
     "Dự án cá nhân/Layout.md",
     "Untitled.md",
@@ -199,7 +201,6 @@
     "Tools/hosting.md",
     "Tools/random-2026-05-30-1780109489951.md",
     "Tools/testing.md",
-    "Java/Spring Boot/Bài toán Transaction.md",
     "Java/Spring Boot/Bài toán tạo vật thể từ sơ đồ sẵn có.md",
     "AwesomeTool/InterestingThings/Tool, MCP, Plugins.md",
     "Techs/Socket.IO.md",

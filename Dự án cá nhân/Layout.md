@@ -118,3 +118,4 @@ col=⌊clientX−rect.left−stageState.xstageState.scale×CELL_SIZE⌋col=⌊st
 - Tất cả các ô nằm trong tập hợp này sẽ được thêm mới (hoặc xóa đi) khi người dùng thả chuột.
 
 
+	

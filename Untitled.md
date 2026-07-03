@@ -1,1 +1,3 @@
-Dạ em xin chào các anh chị, sắp tới em xin phép được off thực tập ở công ty vì lý do cá nhân ạ, dù thời gian đồng hành chỉ có 3 tháng nhưng em đã có một quãng thời gian học hỏi rất nhiều từ các anh chị đi trước cũng như là có thêm các mối quan hệ mới, 
+Dạ em xin chào anh/chị và mọi người, hôm nay là ngày cuối em đồng hành cùng công ty
+Em thực sự cám ơn mọi người vì thời gian qua đã nhiệt tình giúp đỡ, hỗ trợ em trong quá trình thực tập 3 tháng vừa qua. Nhờ anh chị mà em đã học được rất nhiều điều từ kiến thức chuyên môn cũng như là cách làm việc, đây là những kinh nghiệm rất quý giá đối với em trong chặng đường sau này.
+Em xin chúc anh chị và team nhiều sức khỏe, phát triển và luôn gặt hái được thành công ạ

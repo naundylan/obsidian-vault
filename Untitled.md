@@ -1,0 +1,1 @@
+Dạ em xin chào các anh chị, sắp tới em xin phép được off thực tập ở công ty vì lý do cá nhân ạ, dù thời gian đồng hành chỉ có 3 tháng nhưng em đã có một quãng thời gian học hỏi rất nhiều từ các anh chị đi trước cũng như là có thêm các mối quan hệ mới, 

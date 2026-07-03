@@ -1,5 +1,5 @@
 ***Target***:
-TIếng Anh: TOEIC 800+ và cày đề
+TIếng Anh: TOEIC 800+ và có làm qua 5 đề thi thử
 - Speaking:
 - Writing:
 - Listening:

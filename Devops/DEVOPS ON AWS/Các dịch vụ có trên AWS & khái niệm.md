@@ -8,3 +8,5 @@
 ---
 - RDS: dịch vụ cung cấp nơi deploy DB (k rõ có ngon hơn superbase k, hoặc là ngon hơn render k), nó có các chức năng backup, restore, tự động nhiều thứ
 - Maybe là có free tier
+
+---

@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Plan 2 tháng hè/Tháng 7.md",
+                "file": "Devops/DEVOPS ON AWS/Untitled.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Tháng 7"
+              "title": "Untitled"
             }
           }
         ]
@@ -186,8 +186,11 @@
   },
   "active": "f31dcac04c7193f4",
   "lastOpenFiles": [
-    "Plan 2 tháng hè/Tháng 8.md",
     "Plan 2 tháng hè/Tháng 7.md",
+    "Devops/DEVOPS ON AWS/Untitled.md",
+    "Devops/DEVOPS ON AWS",
+    "Devops",
+    "Plan 2 tháng hè/Tháng 8.md",
     "Dự án cá nhân/Race condition.md",
     "Plan 2 tháng hè",
     "Dự án cá nhân/Untitled.md",
@@ -215,11 +218,9 @@
     "AwesomeTool/InterestingThings/Network.md",
     "AwesomeTool/InterestingThings/Economic.md",
     "AwesomeTool/InterestingThings/Downloading.md",
-    "AwesomeTool/InterestingThings/Agent Builds.md",
     "AwesomeTool/InterestingThings",
     "AwesomeTool/FreeTool",
     "AwesomeTool",
-    "Techs/Untitled",
-    "Techs"
+    "Techs/Untitled"
   ]
 }

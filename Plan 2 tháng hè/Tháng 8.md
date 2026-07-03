@@ -48,3 +48,41 @@ Tập cơ: 28/31 ngày tập đều đặn
 | *17:30 - 20:00*   | *150 phút* | **HỌC TIẾNG NHẬT TẠI TRƯỜNG (2.5 tiếng)**        | Khung giờ bận cố định ở trường       |
 | **20:30 - 22:00** |  90 phút   | Ôn tập lại bài vừa học ở trường + Xem từ vựng    | Học nhẹ nhàng, không áp lực bài mới  |
 | *Sau 22:00*       |            | *Nghỉ ngơi hoàn toàn*                            | Đảm bảo sức khỏe cho chuỗi ngày dài  |
+
+
+
+
+
+## 🗓️ GIAI ĐOẠN 2: THÁNG 8 - VỀ ĐÍCH & THỰC CHIẾN
+
+### 📌 TUẦN 5 (03/08 - 09/08): Chuyển mình sang thực chiến
+* [ ] **Tiếng Anh (Bắt đầu cày TOEIC):**
+    * Giải quyết đề thi thử TOEIC đầu tiên (Nghiêm túc bấm giờ). Không quan trọng điểm số, quan trọng là biết mình yếu Part nào.
+    * Tiếp tục duy trì đọc truyện và nghe Podcast 3 buổi/tuần.
+* [ ] **Tiếng Nhật:** Hoàn thành **Bài 13, 14, 15** Minna no Nihongo (Bắt đầu học thể Te - Khung ngữ pháp rất quan trọng).
+* [ ] **DevOps & Dự án Web (Gộp lại làm một):** * Dùng Docker để đóng gói (Containerize) toàn bộ dự án Web cá nhân đang làm.
+    * Dựng giao diện cho các trang phụ còn lại (Setting, Profile, v.v.).
+
+### 📌 TUẦN 6 (10/08 - 16/08): Cày sâu cuốc bẫm
+* [ ] **Tiếng Anh:**
+    * Giải đề TOEIC thứ 2 và thứ 3. Tập trung sửa chi tiết các lỗi sai ở Part 5 và Part 7.
+    * Luyện nói với ChatGPT bằng cách mô tả lại các bức tranh trong đề thi TOEIC Part 1.
+* [ ] **Tiếng Nhật:** Hoàn thành **Bài 16, 17, 18** Minna no Nihongo (Học thể Nai và thể Từ điển).
+* [ ] **DevOps & Dự án Web:**
+    * Setup một VPS (Server ảo miễn phí hoặc giá rẻ của AWS/Render/DigitalOcean).
+    * Cấu hình CI/CD tự động: Mỗi khi push code lên GitHub, hệ thống tự động deploy lên Server.
+* [ ] **Kỷ luật:** Giữ sức khỏe thật tốt, tăng thời gian ngủ trưa lên đủ 30p để không bị sập nguồn vào buổi chiều.
+
+### 📌 TUẦN 7 (17/08 - 23/08): Bứt phá giới hạn
+* [ ] **Tiếng Anh:**
+    * Giải đề TOEIC thứ 4 và thứ 5. Mục tiêu kiểm soát thời gian làm bài: dư ít nhất 5-10 phút trước khi hết giờ.
+    * Tập trung nghe lại các phần bị bẫy trong Part 2 và Part 3 của đề thi.
+* [ ] **Tiếng Nhật:** Hoàn thành **Bài 19, 20, 21, 22** Minna no Nihongo (Tăng tốc để chuẩn bị về đích).
+* [ ] **Dự án Web:** Hoàn thiện 100% các tính năng. Dành cả tuần này để "Test phá hoại" (Bấm lung tung xem web có lỗi không) và Fix hết các bug còn tồn đọng.
+* [ ] **Kỷ luật:** Duy trì 15p thể dục để giải tỏa áp lực khi khối lượng công việc đạt đỉnh.
+
+### 📌 TUẦN 8 (24/08 - 31/08): Tổng duyệt & Thu hoạch quả ngọt
+* [ ] **Tiếng Anh:** Làm 1 đề TOEIC tổng duyệt cuối cùng. Tổng hợp lại "Sổ tay lỗi sai" để ghi nhớ những lỗi hay mắc phải.
+* [ ] **Tiếng Nhật:** Hoàn thành **Bài 23, 24, 25** Minna no Nihongo -> Khép lại toàn bộ 25 bài của giáo trình, chính thức làm chủ kiến thức N5 vững vàng.
+* [ ] **Dự án Web & DevOps:** Đóng gói dự án, chạy mượt mà trên môi trường Production (Online). Chuẩn bị một đoạn mô tả ngắn (ReadMe) trên GitHub để làm đẹp CV.
+* [ ] **Kỷ luật:** Trước ngày 01/09, dành ra 1 buổi tối xả hơi hoàn toàn, đi chơi với bạn bè hoặc tự thưởng cho bản thân vì đã hoàn thành một mùa hè siêu năng suất!

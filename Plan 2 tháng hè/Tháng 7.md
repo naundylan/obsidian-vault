@@ -47,3 +47,49 @@ Tập cơ: 26/28 ngày tập đều đặn
 | *17:30 - 20:00*   | *150 phút* | **HỌC TIẾNG NHẬT TẠI TRƯỜNG (2.5 tiếng)**        | Khung giờ bận cố định ở trường       |
 | **20:30 - 22:00** |  90 phút   | Ôn tập lại bài vừa học ở trường + Xem từ vựng    | Học nhẹ nhàng, không áp lực bài mới  |
 | *Sau 22:00*       |            | *Nghỉ ngơi hoàn toàn*                            | Đảm bảo sức khỏe cho chuỗi ngày dài  |
+
+
+
+# 🎯 MỤC TIÊU CHI TIẾT THEO TỪNG TUẦN (8 TUẦN HÈ BỨT PHÁ)
+
+## 🗓️ GIAI ĐOẠN 1: THÁNG 7 - XÂY MÓNG & VÀO GUỒNG
+
+### 📌 TUẦN 1 (04/07 - 12/07): Khởi động & Tạo thói quen
+* [ ] **Tiếng Anh:**
+    * Cài đặt thành công app Anki/Quizlet và tạo bộ thẻ từ vựng đầu tiên.
+    * Nói chuyện với ChatGPT qua 2 chủ đề; Hoàn thành bài viết đầu tiên trên *Write & Improve*.
+    * Nghe xong 2 video Podcast của *What's up English*; Đọc hết 1 truyện ngắn trên *English e-Reader*.
+* [ ] **Tiếng Nhật:** Hoàn thành trọn vẹn **Bài 1, 2, 3** Minna no Nihongo (Từ vựng, Ngữ pháp, Bài tập).
+* [ ] **DevOps:** Hoàn thành chương mở đầu và setup môi trường học tập trên *devopsedu*.
+* [ ] **Dự án Web:** Thiết kế xong Database (Cơ sở dữ liệu) trên giấy/tool vẽ và khởi tạo source code (Git repository).
+* [ ] **Kỷ luật:** Duy trì tập thể dục 15p ít nhất 5 ngày trong tuần.
+
+### 📌 TUẦN 2 (13/07 - 19/07): Vào guồng quay tăng tốc
+* [ ] **Tiếng Anh:**
+    * Học thêm 50 từ vựng mới qua Anki.
+    * Nói chuyện với ChatGPT qua 3 chủ đề mới; Hoàn thành bài viết thứ 2 và thứ 3.
+    * Nghe xong 3 video Podcast; Đọc xong truyện ngắn thứ 2.
+* [ ] **Tiếng Nhật:** Hoàn thành **Bài 4, 5, 6** Minna no Nihongo (Bắt đầu làm quen với các nhóm động từ).
+* [ ] **DevOps:** Học xong và thực hành thành thạo phần **Docker cơ bản** (Cách build image, chạy container).
+* [ ] **Dự án Web:** Code xong toàn bộ các API Backend cơ bản (Đăng nhập, Đăng ký, CRUD dữ liệu).
+* [ ] **Kỷ luật:** Đảm bảo không bỏ ca học buổi sáng (7h30 - 11h00) quá 1 ngày.
+
+### 📌 TUẦN 3 (20/07 - 26/07): Vượt chướng ngại vật
+* [ ] **Tiếng Anh:**
+    * Nói chuyện với ChatGPT qua 3 chủ đề nâng cao; Hoàn thành bài viết thứ 4 và thứ 5.
+    * Nghe xong 3 video Podcast (Tập ghi chú - Take note lại các cụm từ hay); Đọc xong truyện thứ 3.
+* [ ] **Tiếng Nhật:** Hoàn thành **Bài 7, 8, 9** Minna no Nihongo (Nắm chắc tính từ đuôi i và đuôi na).
+* [ ] **DevOps:** Hoàn thành phần **CI/CD cơ bản** (Tìm hiểu về GitHub Actions hoặc GitLab CI).
+* [ ] **Dự án Web:** Kết nối Backend với Database; Bắt đầu dựng giao diện (Layout UI) của Frontend.
+* [ ] **Kỷ luật:** Đọc tin tức đều đặn 10p/ngày để tích lũy kiến thức xã hội phục vụ bài viết Tiếng Anh.
+
+### 📌 TUẦN 4 (27/07 - 02/08): Đóng gói giai đoạn nền tảng
+* [ ] **Tiếng Anh:**
+    * Nói chuyện với ChatGPT qua 4 chủ đề tự do; Hoàn thành bài viết thứ 6, 7, 8 (Đạt mục tiêu tháng 7).
+    * Nghe xong 4 video Podcast; Đọc xong truyện thứ 4.
+* [ ] **Tiếng Nhật:** Hoàn thành **Bài 10, 11, 12** Minna no Nihongo -> Chính thức cán mốc xong gần 1/2 chặng đường N5.
+* [ ] **DevOps:** Hoàn thành 100% khóa học trên *devopsedu* (Nắm vững lý thuyết cơ bản để chuẩn bị ứng dụng).
+* [ ] **Dự án Web:** Hoàn thành các tính năng chính của Frontend (Form nhập liệu, hiển thị danh sách, phân quyền).
+* [ ] **Kỷ luật:** Review lại toàn bộ từ vựng đã học trong tháng 7 trên Anki.
+
+---

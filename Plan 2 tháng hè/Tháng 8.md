@@ -10,7 +10,27 @@ Projects: Hoàn thành 50% project còn lại
 Thể dục: 28/31 ngày tập đều đặn
 Tập cơ: 28/31 ngày tập đều đặn
 
+# 🎯 TARGET TỔNG QUAN THÁNG 8 (01/08 - 31/08)
+*Giai đoạn: Thực chiến, Cày đề & Hoàn thiện dự án*
 
+### 🇬🇧 TIẾNG ANH (Mục tiêu TOEIC 800+)
+* [ ] **Làm đề:** Hoàn thành giải chi tiết **5 đề thi thử TOEIC full** (Bấm giờ nghiêm túc 120 phút/đề).
+* [ ] **Speaking:** Hoàn thành **8 buổi** luyện nói mô tả tranh/phản xạ TOEIC với ChatGPT.
+* [ ] **Writing:** Hoàn thành **4 bài viết** email/luận thương mại trên *Write & Improve*.
+* [ ] **Listening:** Nghe chép chính tả/Shadowing sâu **8 video Vlogs/Podcasts** (Ưu tiên giọng Anh-Anh, Anh-Úc).
+* [ ] **Reading:** Đọc **8 truyện ngắn** level cao hơn tháng 7 để tăng tốc độ đọc hiểu Part 7.
+
+### 🇯🇵 TIẾNG NHẬT (Mục tiêu N5 cứng)
+* [ ] Hoàn thành tổng cộng **10 bài Minna no Nihongo còn lại** (Từ Bài 16 đến Bài 25).
+* [ ] Giải quyết các cấu trúc ngữ pháp phức tạp cuối cuốn (Thể thông thường, thể điều kiện, định ngữ).
+
+### 💻 CÔNG NGHỆ & DỰ ÁN
+* [ ] **DevOps:** Hoàn thành **50% khóa học còn lại** trên *devopsedu* (Nâng cao: CI/CD, Monitor, Cloud basic).
+* [ ] **Projects:** Hoàn thành **50% project còn lại** (Xong Frontend, tối ưu UI/UX, bảo mật và Deploy lên mạng).
+
+### 🏋️ SỨC KHỎE (Mục tiêu 28/31 ngày)
+* [ ] **Thể dục:** Hoàn thành **28/31 ngày** tập luyện đều đặn (Được nghỉ tối đa 3 ngày).
+* [ ] **Tập cơ:** Hoàn thành **28/31 ngày** tập cơ kích hoạt năng lượng (Được nghỉ tối đa 3 ngày).
 
 ***Lịch trình***
 ### 📅 LỊCH THỨ 2 - THỨ 3 - THỨ 4 - THỨ 6 (Ngày tự học toàn diện)
@@ -51,38 +71,34 @@ Tập cơ: 28/31 ngày tập đều đặn
 
 
 
-
-
-## 🗓️ GIAI ĐOẠN 2: THÁNG 8 - VỀ ĐÍCH & THỰC CHIẾN
-
-### 📌 TUẦN 5 (03/08 - 09/08): Chuyển mình sang thực chiến
-* [ ] **Tiếng Anh (Bắt đầu cày TOEIC):**
-    * Giải quyết đề thi thử TOEIC đầu tiên (Nghiêm túc bấm giờ). Không quan trọng điểm số, quan trọng là biết mình yếu Part nào.
-    * Tiếp tục duy trì đọc truyện và nghe Podcast 3 buổi/tuần.
-* [ ] **Tiếng Nhật:** Hoàn thành **Bài 13, 14, 15** Minna no Nihongo (Bắt đầu học thể Te - Khung ngữ pháp rất quan trọng).
-* [ ] **DevOps & Dự án Web (Gộp lại làm một):** * Dùng Docker để đóng gói (Containerize) toàn bộ dự án Web cá nhân đang làm.
-    * Dựng giao diện cho các trang phụ còn lại (Setting, Profile, v.v.).
-
-### 📌 TUẦN 6 (10/08 - 16/08): Cày sâu cuốc bẫm
+### 📌 TUẦN 5 (01/08 - 09/08) - Khởi động thực chiến (9 ngày)
 * [ ] **Tiếng Anh:**
-    * Giải đề TOEIC thứ 2 và thứ 3. Tập trung sửa chi tiết các lỗi sai ở Part 5 và Part 7.
-    * Luyện nói với ChatGPT bằng cách mô tả lại các bức tranh trong đề thi TOEIC Part 1.
-* [ ] **Tiếng Nhật:** Hoàn thành **Bài 16, 17, 18** Minna no Nihongo (Học thể Nai và thể Từ điển).
-* [ ] **DevOps & Dự án Web:**
-    * Setup một VPS (Server ảo miễn phí hoặc giá rẻ của AWS/Render/DigitalOcean).
-    * Cấu hình CI/CD tự động: Mỗi khi push code lên GitHub, hệ thống tự động deploy lên Server.
-* [ ] **Kỷ luật:** Giữ sức khỏe thật tốt, tăng thời gian ngủ trưa lên đủ 30p để không bị sập nguồn vào buổi chiều.
+    * Giải đề TOEIC số 1 + Dành 1 buổi chữa chi tiết, ghi lại các từ vựng/bẫy bị sai vào sổ tay.
+    * Kỹ năng: 2 bài Speaking với ChatGPT, 1 bài Writing, 2 Vlogs Listening, 2 truyện Reading.
+* [ ] **Tiếng Nhật:** Hoàn thành **Bài 16 và Bài 17** Minna no Nihongo.
+* [ ] **DevOps & Project:** Học 15% khóa học; Hoàn thiện giao diện chính Frontend của Web.
+* [ ] **Sức khỏe:** Hoàn thành **8/9 ngày** tập thể dục + tập cơ.
 
-### 📌 TUẦN 7 (17/08 - 23/08): Bứt phá giới hạn
+### 📌 TUẦN 6 (10/08 - 16/08) - Cày đề cao độ (7 ngày)
 * [ ] **Tiếng Anh:**
-    * Giải đề TOEIC thứ 4 và thứ 5. Mục tiêu kiểm soát thời gian làm bài: dư ít nhất 5-10 phút trước khi hết giờ.
-    * Tập trung nghe lại các phần bị bẫy trong Part 2 và Part 3 của đề thi.
-* [ ] **Tiếng Nhật:** Hoàn thành **Bài 19, 20, 21, 22** Minna no Nihongo (Tăng tốc để chuẩn bị về đích).
-* [ ] **Dự án Web:** Hoàn thiện 100% các tính năng. Dành cả tuần này để "Test phá hoại" (Bấm lung tung xem web có lỗi không) và Fix hết các bug còn tồn đọng.
-* [ ] **Kỷ luật:** Duy trì 15p thể dục để giải tỏa áp lực khi khối lượng công việc đạt đỉnh.
+    * Giải đề TOEIC số 2 và Đề số 3 (Tuần này dồn lực cày đề).
+    * Kỹ năng: 2 bài Speaking với ChatGPT, 1 bài Writing, 2 Vlogs Listening, 2 truyện Reading.
+* [ ] **Tiếng Nhật:** Hoàn thành **Bài 18, 19 và Bài 20** Minna no Nihongo.
+* [ ] **DevOps & Project:** Học 15% khóa học; Kết nối hoàn chỉnh Frontend với API Backend.
+* [ ] **Sức khỏe:** Hoàn thành **6/7 ngày** tập thể dục + tập cơ.
 
-### 📌 TUẦN 8 (24/08 - 31/08): Tổng duyệt & Thu hoạch quả ngọt
-* [ ] **Tiếng Anh:** Làm 1 đề TOEIC tổng duyệt cuối cùng. Tổng hợp lại "Sổ tay lỗi sai" để ghi nhớ những lỗi hay mắc phải.
-* [ ] **Tiếng Nhật:** Hoàn thành **Bài 23, 24, 25** Minna no Nihongo -> Khép lại toàn bộ 25 bài của giáo trình, chính thức làm chủ kiến thức N5 vững vàng.
-* [ ] **Dự án Web & DevOps:** Đóng gói dự án, chạy mượt mà trên môi trường Production (Online). Chuẩn bị một đoạn mô tả ngắn (ReadMe) trên GitHub để làm đẹp CV.
-* [ ] **Kỷ luật:** Trước ngày 01/09, dành ra 1 buổi tối xả hơi hoàn toàn, đi chơi với bạn bè hoặc tự thưởng cho bản thân vì đã hoàn thành một mùa hè siêu năng suất!
+### 📌 TUẦN 7 (17/08 - 23/08) - Vượt chướng ngại vật (7 ngày)
+* [ ] **Tiếng Anh:**
+    * Giải đề TOEIC số 4 + Tập trung khắc phục điểm yếu (Ví dụ: Nếu yếu Part 7 thì tuần này tập bấm giờ riêng cho Part 7).
+    * Kỹ năng: 2 bài Speaking với ChatGPT, 1 bài Writing, 2 Vlogs Listening, 2 truyện Reading.
+* [ ] **Tiếng Nhật:** Hoàn thành **Bài 21, 22 và Bài 23** Minna no Nihongo.
+* [ ] **DevOps & Project:** Học 15% khóa học; Áp dụng DevOps để đóng gói Docker và cấu hình CI/CD.
+* [ ] **Sức khỏe:** Hoàn thành **6/7 ngày** tập thể dục + tập cơ.
+
+### 📌 TUẦN 8 & VỀ ĐÍCH (24/08 - 31/08) - Tổng duyệt & Đóng gói (8 ngày)
+* [ ] **Tiếng Anh:**
+    * Giải đề TOEIC số 5 (Đề tổng duyệt - Mục tiêu đạt max điểm). Ôn lại toàn bộ sổ tay lỗi sai.
+    * Kỹ năng: Hoàn thành nốt 2 bài Speaking, 1 bài Writing, 2 Vlogs, 2 truyện cuối cùng.
+* [ ] **Tiếng Nhật:** Hoàn thành **Bài 24 và Bài 25** Minna no Nihongo -> Chính thức kết thúc cuốn Minna 1.
+* [ ] **DevOps & Project:** Hoàn thành 5% khóa học còn lại; Deploy trang web lên Production (Online hoàn toàn) và fix các bug cuối.
+* [ ] **Sức khỏe:** Hoàn thành **8/8 ngày** tập luyện xuất sắc để chốt sổ 28/31 ngày của tháng.

@@ -57,12 +57,12 @@ Tập cơ: 26/28 ngày tập đều đặn
 
 * [ ] **Tiếng Anh:**
     * **Speaking:** Hoàn thành **4 chủ đề** giao tiếp cơ bản đầu tiên với ChatGPT.
-    * **Writing:** Hoàn thành **2 bài viết** trên web *Write & Improve*. 1/2
-    * **Listening:** Xem và ghi chú từ vựng của **4 video Vlogs** (*What's up English*). 1/4
+    * **Writing:** Hoàn thành **2 bài viết** trên web *Write & Improve*. 2/2
+    * **Listening:** Xem và ghi chú từ vựng của **4 video Vlogs** (*What's up English*). 2/4
     * **Reading:** Đọc hết **4 truyện ngắn/shorts** trên *English e-Reader*. 0/4
 * [ ] **Tiếng Nhật:** Hoàn thành trọn vẹn **Bài 1, 2, 3, 4** Minna no Nihongo (Từ vựng, ngữ pháp, bài tập).
 * [ ] **DevOps:** Hoàn thành **12.5%** khóa học trên *devopsedu* (Setup môi trường, học các khái niệm cơ bản).
-* [ ] **Projects:** Hoàn thành **Tuần 01** của dự án (Thiết kế Database và khởi tạo cấu trúc thư mục code, viết tài liệu, ...).
+* [x] **Projects:** Hoàn thành **Tuần 01** của dự án (Thiết kế Database và khởi tạo cấu trúc thư mục code, viết tài liệu, ...).
 * [ ] **Sức khỏe:** Hoàn thành **8/9 ngày** tập thể dục và tập cơ đều đặn (Được nghỉ 1 ngày xả cơ).
 
 ---

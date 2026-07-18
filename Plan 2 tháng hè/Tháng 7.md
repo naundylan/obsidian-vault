@@ -63,7 +63,7 @@ Tập cơ: 26/28 ngày tập đều đặn
 * [ ] **Tiếng Nhật:** Hoàn thành trọn vẹn **Bài 1, 2, 3, 4** Minna no Nihongo (Từ vựng, ngữ pháp, bài tập).
 * [ ] **DevOps:** Hoàn thành **12.5%** khóa học trên *devopsedu* (Setup môi trường, học các khái niệm cơ bản).
 * [x] **Projects:** Hoàn thành **Tuần 01** của dự án (Thiết kế Database và khởi tạo cấu trúc thư mục code, viết tài liệu, ...).
-* [ ] **Sức khỏe:** Hoàn thành **8/9 ngày** tập thể dục và tập cơ đều đặn (Được nghỉ 1 ngày xả cơ).
+* [x] **Sức khỏe:** Hoàn thành **8/9 ngày** tập thể dục và tập cơ đều đặn (Được nghỉ 1 ngày xả cơ).
 
 ---
 

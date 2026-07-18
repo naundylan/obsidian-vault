@@ -58,7 +58,7 @@ Tập cơ: 26/28 ngày tập đều đặn
 * [ ] **Tiếng Anh:**
     * **Speaking:** Hoàn thành **4 chủ đề** giao tiếp cơ bản đầu tiên với ChatGPT.
     * **Writing:** Hoàn thành **2 bài viết** trên web *Write & Improve*. 2/2
-    * **Listening:** Xem và ghi chú từ vựng của **4 video Vlogs** (*What's up English*). 2/4
+    * **Listening:** Xem và ghi chú từ vựng của **4 video Vlogs** (*What's up English*). 3/4
     * **Reading:** Đọc hết **4 truyện ngắn/shorts** trên *English e-Reader*. 1/4
 * [ ] **Tiếng Nhật:** Hoàn thành trọn vẹn **Bài 1, 2, 3, 4** Minna no Nihongo (Từ vựng, ngữ pháp, bài tập).
 * [ ] **DevOps:** Hoàn thành **12.5%** khóa học trên *devopsedu* (Setup môi trường, học các khái niệm cơ bản).

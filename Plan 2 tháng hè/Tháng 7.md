@@ -3,7 +3,7 @@ TIếng Anh: TOEIC 700+
 - Speaking: 15 chủ đề giao tiếp cơ bản
 - Writing: 8 bài
 - Listening: 15 Vlogs
-- Reading: 15 shorts
+- Reading: 15 shorts (fabulang)
 Tiếng Nhật: Hoàn thành tổng 15 bài Minna no nihongo
 Devops: Hoàn thành 50% khóa học
 Projects: Hoàn thành 50% project
@@ -59,8 +59,8 @@ Tập cơ: 26/28 ngày tập đều đặn
     * **Speaking:** Hoàn thành **4 chủ đề** giao tiếp cơ bản đầu tiên với ChatGPT.
     * **Writing:** Hoàn thành **2 bài viết** trên web *Write & Improve*. 2/2
     * **Listening:** Xem và ghi chú từ vựng của **4 video Vlogs** (*What's up English*). 3/4
-    * **Reading:** Đọc hết **4 truyện ngắn/shorts** trên *English e-Reader*. 1/4
-* [ ] **Tiếng Nhật:** Hoàn thành trọn vẹn **Bài 1, 2, 3, 4** Minna no Nihongo (Từ vựng, ngữ pháp, bài tập).
+    * **Reading:** Đọc hết **4 truyện ngắn/shorts** trên *English e-Reader*. 3/4
+* [x] **Tiếng Nhật:** Hoàn thành trọn vẹn **Bài 1, 2, 3, 4** Minna no Nihongo (Từ vựng, ngữ pháp, bài tập).
 * [ ] **DevOps:** Hoàn thành **12.5%** khóa học trên *devopsedu* (Setup môi trường, học các khái niệm cơ bản).
 * [x] **Projects:** Hoàn thành **Tuần 01** của dự án (Thiết kế Database và khởi tạo cấu trúc thư mục code, viết tài liệu, ...).
 * [x] **Sức khỏe:** Hoàn thành **8/9 ngày** tập thể dục và tập cơ đều đặn (Được nghỉ 1 ngày xả cơ).

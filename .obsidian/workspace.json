@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Dự án cá nhân/Layout.md",
+                "file": "Dự án cá nhân/Race condition.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Layout"
+              "title": "Race condition"
             }
           }
         ]
@@ -41,7 +41,9 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical",
-                "autoReveal": false
+                "autoReveal": false,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-folder-closed",
               "title": "Files"
@@ -186,6 +188,7 @@
   },
   "active": "f31dcac04c7193f4",
   "lastOpenFiles": [
+    "Dự án cá nhân/Layout.md",
     "Dự án cá nhân/Race condition.md",
     "Plan 2 tháng hè/Tháng 7.md",
     "Tools/security.md",
@@ -197,7 +200,6 @@
     "Devops",
     "Plan 2 tháng hè",
     "Dự án cá nhân/Untitled.md",
-    "Dự án cá nhân/Layout.md",
     "Java/Spring Boot/Bài toán Transaction.md",
     "Java/Spring Boot/Bài toán tích hợp cổng thanh toán.md",
     "Dự án cá nhân",

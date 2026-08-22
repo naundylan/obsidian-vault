@@ -3,12 +3,16 @@ name: Save Tool to Vault
 on:
   repository_dispatch:
     types: [save-to-vault]
-
+concurrency:
+  group: save-to-vault
+  cancel-in-progress: false
 jobs:
   save:
     runs-on: ubuntu-latest
+
     permissions:
       contents: write
+
     steps:
       - name: Checkout vault repo
         uses: actions/checkout@v4
@@ -19,7 +23,7 @@ jobs:
         run: |
           python3 << 'PYEOF'
           import json, os, re
-          from datetime import datetime
+          from datetime import datetime, timezone
 
           name = """${{ github.event.client_payload.name }}"""
           content = """${{ github.event.client_payload.content }}"""
@@ -45,25 +49,42 @@ jobs:
 
           def detect_category(name, content, hint):
               text = (name + " " + content + " " + hint).lower()
+
               scores = {}
+
               for cat, keywords in CATEGORY_MAP.items():
                   score = sum(1 for kw in keywords if kw in text)
+
                   if score > 0:
                       scores[cat] = score
+
               if scores:
                   return max(scores, key=scores.get)
+
               return "other"
 
           category = detect_category(name, content, category_hint)
+
           os.makedirs("Tools", exist_ok=True)
+
           filepath = f"Tools/{category}.md"
 
-          date = datetime.utcnow().strftime("%Y-%m-%d")
-          entry = f"\n---\n## {name}\n> Thêm vào: {date}\n\n{content}\n"
+          date = datetime.now(timezone.utc).strftime("%Y-%m-%d")
+
+          entry = f"""
+          ---
+          ## {name}
+          > Thêm vào: {date}
+
+          {content}
+          """
 
           if not os.path.exists(filepath):
               with open(filepath, "w", encoding="utf-8") as f:
-                  f.write(f"# {category.upper()}\n\nDanh sách các tool liên quan đến {category}.\n")
+                  f.write(
+                      f"# {category.upper()}\n\n"
+                      f"Danh sách các tool liên quan đến {category}.\n"
+                  )
 
           with open(filepath, "a", encoding="utf-8") as f:
               f.write(entry)
@@ -72,10 +93,52 @@ jobs:
           PYEOF
 
       - name: Commit and push
+        shell: bash
         run: |
+          set -e
+
           git config user.name "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
-          git pull --rebase origin main
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          echo "=== Git status ==="
+          git status
+
           git add Tools/
-          git diff --staged --quiet || git commit -m "feat: add ${{ github.event.client_payload.name }}"
-          git push
+
+          # Không có gì thay đổi thì kết thúc bình thường
+          if git diff --cached --quiet; then
+            echo "No changes to commit."
+            exit 0
+          fi
+
+          # Commit local trước
+          git commit -m "feat: add ${{ github.event.client_payload.name }}"
+
+          # Thử push tối đa 5 lần để tránh lỗi nếu nhiều workflow chạy cùng lúc
+          for attempt in {1..5}; do
+            echo "Push attempt $attempt/5"
+
+            # Lấy trạng thái main mới nhất
+            git fetch origin main
+
+            # Nếu remote thay đổi trong lúc workflow chạy,
+            # đưa commit của workflow lên trên remote main mới nhất
+            if ! git rebase origin/main; then
+              echo "Rebase conflict detected."
+              git rebase --abort
+              exit 1
+            fi
+
+            if git push origin HEAD:main; then
+              echo "Push successful."
+              exit 0
+            fi
+
+            echo "Push failed because remote may have changed."
+            echo "Retrying..."
+
+            sleep $((attempt * 2))
+          done
+
+          echo "Failed to push after 5 attempts."
+          exit 1

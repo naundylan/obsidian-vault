@@ -79,3 +79,34 @@ SourceForge là một nền tảng trực tuyến dành cho phát triển và ph
   • [Dự án mã nguồn mở cá nhân hoặc nhóm muốn phát triển và chia sẻ với cộng đồng] – Khi bạn có một dự án open-source và cần một nền tảng uy tín để đăng tải mã nguồn, tài liệu và theo dõi sự phát triển, SourceForge cung cấp không gian làm việc hoàn chỉnh với khả năng phối hợp các tính năng quản lý dự án và ph
 
 https://github.com/ripienaar/free-for-dev
+
+---
+## imgen
+> Thêm vào: 2026-08-28
+
+🎲 Tool random hôm nay!
+📂 Storage and Media Processing
+
+Agree
+
+🛠 [imgen] — https://www.jitbit.com/imgen/
+
+📌 Về gì:
+imgen là một API tạo hình ảnh động (on-the-fly) giúp bạn tạo hình ảnh từ chữ và nền một cách dễ dàng thông qua URL. Tool thuộc danh mục API tạo hình ảnh và CDN, dùng để tạo opengraph images, thumbnail hoặc hình ảnh chia sẻ trên mạng xã hội. so với các tool như Canva hay Photoshop, imgen đơn giản hơn vì chỉ cần gọi URL với tham số là xong - không cần tải ứng dụng hoặc thiết kế phức tạp.
+
+🎁 Free tier bao gồm:
+  • Không giới hạn số lần gọi API
+  • Không có watermark
+  • Sử dụng CDN miễn phí
+  • Custom domain hỗ trợ
+  • SSL miễn phí
+
+💡 Phù hợp để dùng khi:
+  • Website hoặc blog cần tạo opengraph images động cho từng bài viết một cách tự động
+  • Ứng dụng cần tạo hình ảnh chia sẻ trên mạng xã hội với nội dung thay đổi theo context
+  • Developer chạy landing page hoặc marketing page cần thumbnail riêng cho từng trang mà không muốn thiết kế thủ công
+
+⚠️ Cần biết trước khi dùng:
+  • Chỉ hỗ trợ các phép toán cơ bản trên hình ảnh (text overlay, nền màu), không hỗ trợ thiết kế phức tạ
+
+https://github.com/ripienaar/free-for-dev

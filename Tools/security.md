@@ -110,3 +110,32 @@ imgen là một API tạo hình ảnh động (on-the-fly) giúp bạn tạo hì
   • Chỉ hỗ trợ các phép toán cơ bản trên hình ảnh (text overlay, nền màu), không hỗ trợ thiết kế phức tạ
 
 https://github.com/ripienaar/free-for-dev
+
+---
+## tool-1787890860325
+> Thêm vào: 2026-08-28
+
+🎲 Tool random hôm nay!
+📂 Data Visualization on Maps
+
+🛠 Geokeo API — https://geokeo.com
+
+📌 Về gì:
+Geokeo API là một dịch vị Geocoding và Reverse Geocoding toàn cầu, thuộc nhóm API định vị địa lý. Tool này giúp developer dễ dàng chuyển đổi giữa tên địa chỉ và tọa độ latitude/longitude, đồng thời hỗ trợ sửa lỗi ngôn ngữ và dịch thuật tự động. So với các tool khác như Google Maps API hay Mapbox, Geokeo xiên ra rộng với mức free cao hơn nhiều và không đòn bẩy billing khi vượt giới hạn.
+
+🎁 Free tier bao gồm:
+• 2,500 truy vấn/ngày (tương đương ~75.000/tháng)
+• Worldwide coverage với hỗ trợ các thành phố lớn và remote locations
+• Có SSL miễn phí cho các request
+• Không giới hạn bandwidth nhưng có giới hạn số lần gọi API
+• Hỗ trợ geocoding, reverse geocoding, và spatial analysis cơ bản
+
+💡 Phù hợp để dùng khi:
+• [Developer đang xây mini tool đồ án tốt nghiệp cần bản đồ nhưng không muốn dùng Google Maps vì phiên bản free hạn chế]
+• [Team làm việc với dữ liệu địa lý tại Việt Nam cần xử lý hàng ngàn địa chỉ với ngôn ngữ tiếng Việt phức tạp]
+• [Ủy ban nhân dịp lễ có nhu cầu làm chức năng tìm đường đi với quy mô vừa phải mà không cần infrastructure phức tạp]
+
+⚠️ Cần biết trước khi dùng:
+Free tier có giới hạn 2,500 request/ngày có thể không đủ cho các ứng dụng cần xử lý lượng lớn dữ liệu hàng ngàn user cùng thao tác. Cách duyệt endpoint
+
+https://github.com/ripienaar/free-for-dev

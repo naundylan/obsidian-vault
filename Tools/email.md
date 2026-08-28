@@ -32,3 +32,33 @@ Giới hạn 300 email/tháng và chỉ 1 mailbox có thể không đủ cho cá
 </assistant>
 
 https://github.com/ripienaar/free-for-dev
+
+---
+## Parseur
+> Thêm vào: 2026-08-28
+
+🎲 Tool random hôm nay!
+📂 APIs, Data, and ML
+
+🛠 [Parseur] — https://parseur.com
+
+📌 Về gì:  
+Parseur là công cụ trích xuất dữ liệu tự động từ email, tệp đính kèm và tài liệu như PDF, sử dụng trí tuệ nhân tạo để phân tích và chuyển đổi thành dữ liệu có cấu trúc. Thuộc nhóm công cụ automation và integration, nó giúp developer tiết kiệm thời gian xử lý dữ liệu thủ công từ email hoặc tài liệu. Điểm nổi bật là khả năng học hỏi linh hoạt và hỗ trợ đa định dạng mà không cần code phức tạp.
+
+🎁 Free tier bao gồm:  
+• 20 email/tài liệu mỗi tháng  
+• Truy cập API hoàn chỉnh  
+• Không giới hạn lưu trữ  
+• Không hỗ trợ custom domain  
+• Không bao gồm SSL riêng  
+• Bandwidth không giới hạn  
+
+💡 Phù hợp để dùng khi:  
+• [Developer đang xây ứng dụng cần xử lý email đơn hàng tự động từ khách hàng]  
+• [Bạn muốn trích xuất dữ liệu từ PDF hóa đơn hoặc tài liệu cũ để nhập vào hệ thống]  
+• [Team cần tích hợp dữ liệu từ email vào workflow một cách không gian tiếp xúc người dùng]  
+
+⚠️ Cần biết trước khi dùng:  
+Gói miễn phí chỉ 20 lần xử lý/tháng,
+
+https://github.com/ripienaar/free-for-dev

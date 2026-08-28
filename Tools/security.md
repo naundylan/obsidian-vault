@@ -27,3 +27,29 @@ Active Directory B2C là dịch vụ quản lý danh tính và truy cập (Ident
 • [Ứng dụng cần quy trình đăng nhập phức t
 
 https://github.com/ripienaar/free-for-dev
+
+---
+## GitBook
+> Thêm vào: 2026-08-28
+
+🎲 Tool random hôm nay!
+📂 Tools for Teams and Collaboration
+
+🛠 [GitBook] — https://www.gitbook.com/
+
+📌 Về gì:  
+GitBook là một nền tảng tạo và quản lý tài liệu kỹ thuật, thuộc nhóm **documentation/knowledge base**. Nó giúp developer ghi lại kiến thức từ API, hướng dẫn sử dụng sản phẩm đến tài liệu nội bộ. Thay vì viết tài liệu dưới dạng file markdown đơn thì GitBook cung cấp giao diện trực quan, hệ thống phân hệ mục và xuất bản trực tuyến, phù hợp với việc chia sẻ công khai hoặc nội bộ.
+
+🎁 Free tier bao gồm:  
+  • Không giới hạn số lần xuất bản  
+  • Giới hạn 1.000 từ tài liệu/tháng  
+  • Không hỗ trợ sách riêng tư (chỉ public)  
+  • Không tùy chỉnh domain riêng (dùng link mặc định)  
+  • Không SSL cho custom domain  
+  • Giới hạn 1 quyền biên tập viên  
+
+💡 Phù hợp để dùng khi:  
+  • [Developer mới bắt đầu ghi hướng dẫn sử dụng sản phẩm nhỏ] – GitBook giúp tạo tài liệu đẹp mắt mà không cần code front-end.  
+  • [Nhóm nhỏ muốn chia sẻ kiến thức nội bộ công khai] – Miễn phí
+
+https://github.com/ripienaar/free-for-dev

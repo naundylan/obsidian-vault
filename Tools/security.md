@@ -53,3 +53,29 @@ GitBook là một nền tảng tạo và quản lý tài liệu kỹ thuật, th
   • [Nhóm nhỏ muốn chia sẻ kiến thức nội bộ công khai] – Miễn phí
 
 https://github.com/ripienaar/free-for-dev
+
+---
+## SourceForge
+> Thêm vào: 2026-08-28
+
+🎲 Tool random hôm nay!
+📂 Web Hosting
+
+🛠 [SourceForge] — https://sourceforge.net/
+
+📌 Về gì:
+SourceForge là một nền tảng trực tuyến dành cho phát triển và phân phối phần mềm mã nguồn mở (open-source). Thuộc nhóm công cụ quản lý dự án và lưu trữ mã nguồn, nó giúp các developer tìm kiếm, tạo lập, phát triển và chia sẻ các dự án open-source hoàn toàn miễn phí. Điểm khác biệt chính của SourceForge là sự kết tinh lâu đời với cộng đồng phát triển phần mềm, hỗ trợ đầy đủ các hệ thống quản lý phiên bản như Git, SVN, và cung cấp không gian lưu trữ công khai rộng rãi cho các dự án.
+
+🎁 Free tier bao gồm:
+  • Không giới hạn dung lượng lưu trữ cho các dự án công khai
+  • Phân phát phần mềm miễn phí không giới hạn lượt tải
+  • Kho lưu trữ công khai (public repositories) không giới hạn
+  • Công cụ quản lý dự án cơ bản (issue tracking, wiki, forums)
+  • Hỗ trợ tên miền tùy chỉnh (custom domain) miễn phí cho các dự án
+  • Chứng chỉ SSL (HTTPS) được cung cấp miễn phí cho trang web dự án
+  • Truy cập cộng đồng và hỗ trợ kỹ thuật cơ bản thông qua diễn đàn và ticket hệ thống
+
+💡 Phù hợp để dùng khi:
+  • [Dự án mã nguồn mở cá nhân hoặc nhóm muốn phát triển và chia sẻ với cộng đồng] – Khi bạn có một dự án open-source và cần một nền tảng uy tín để đăng tải mã nguồn, tài liệu và theo dõi sự phát triển, SourceForge cung cấp không gian làm việc hoàn chỉnh với khả năng phối hợp các tính năng quản lý dự án và ph
+
+https://github.com/ripienaar/free-for-dev
